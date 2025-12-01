@@ -1,10 +1,10 @@
-# 𝐁𝐋𝐀𝐂𝐊-𝐌𝐃 𝐁𝐎𝐓
+# 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁
 <!-- Glowing Footer -->
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
 </p>
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=HI+THIS+IS+BLACK-MD;A+MULTI+DEVICE+WHATSAPP+BOT;SCRIPTED+BY+BLACKIE+TECH;STAR+AND+FORK+OUR+REPO" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=HI+THIS+IS+UNKNOWN-MD;A+MULTI+DEVICE+WHATSAPP+BOT;SCRIPTED+BY+UNKNOWN;STAR+AND+FORK+REPO" alt="Typing SVG" /></a>
   </p>
 
 <!-- Glowing Footer -->
@@ -24,10 +24,10 @@
 [![Black Merchant](https://github.com/Blackie254.png?lenght=50width=50)](https://github.com/Blackie254)
 </p>
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=𝐁𝐋𝐀𝐂𝐊 𝐌𝐃" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁" alt="">
 </p>
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator- 𝐁𝐋𝐀𝐂𝐊𝐌𝐄𝐑𝐂𝐇𝐀𝐍𝐓-blue.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator- 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/Blackie254?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Blackie254?label=Followers&style=social"></a>
@@ -45,7 +45,7 @@
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=254114283550&text=Hello+black"><img src="https://img.shields.io/badge/Contact 𝐁𝐋𝐀𝐂𝐊𝐌𝐄𝐑𝐂𝐇𝐀𝐍𝐓 -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=254114283550&text=Hello+black"><img src="https://img.shields.io/badge/Contact 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
 ***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/whiskeysockets/Baileys)***
@@ -127,7 +127,7 @@ Linking/Pairing:
 
 [MIT License]((https://github.com/Blackie254/black-super-bot)/LICENSE)
 
-Copyright (c) 2025 𝐁𝐋𝐀𝐂𝐊𝐌𝐄𝐑𝐂𝐇𝐀𝐍𝐓  
+Copyright (c) 2025 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁
 
 <!-- Glowing Footer -->
 <p align="center">
