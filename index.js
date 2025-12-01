@@ -40,16 +40,28 @@ const color = (text, color) => {
 
 async function authentication() {
   if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-    if(!session) return console.log('Please add your session to SESSION env !!')
-const sessdata = session.replace("UNKNOWN MD;;;", '');
-const filer = await File.fromURL(`https://mega.nz/file/${sessdata}`)
-filer.download((err, data) => {
-if(err) throw err
-fs.writeFile(__dirname + '/sessions/creds.json', data, () => {
-console.log("Session downloaded successfully✅️")
-console.log("Connecting to WhatsApp ⏳️, Hold on for 3 minutes⌚️")
-})})}
+    if (!session) return console.log('Please add your session to SESSION env !!');
+
+    // Split session string properly
+    const [fileId, fileKey] = session.replace('UNKNOWN MD;;;', '').split(';;;');
+    if (!fileId || !fileKey) return console.log('Session format is wrong!');
+
+    const megaURL = `https://mega.nz/file/${fileId}#${fileKey}`;
+
+    try {
+      const filer = await File.fromURL(megaURL);
+      filer.download((err, data) => {
+        if (err) throw err;
+        fs.writeFileSync(__dirname + '/sessions/creds.json', data);
+        console.log("Session downloaded successfully ✅");
+        console.log("Connecting to WhatsApp ⏳ Hold on for 3 minutes ⌚");
+      });
+    } catch (err) {
+      console.log("MegaJS Error:", err.message);
+    }
+  }
 }
+  
 
 async function startRaven() {
        await authentication();  
