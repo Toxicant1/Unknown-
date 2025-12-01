@@ -87,7 +87,7 @@ startRaven()
   }
   } else if (connection === 'open') {
       console.log(color("Congrats, UNKNOWN-MD has successfully connected to this server", "green"));
-      console.log(color("Follow me on github as Blackie254", "red"));
+      console.log(color("Follow me on github as Toxicant1", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
       client.groupAcceptInvite('LDBdQY8fKbs1qkPWCTuJGX');
       const Texxt = `✅ 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱 » »【UNKNOWN-MD】\n`+`👥 𝗠𝗼𝗱𝗲 »» ${mode}\n`+`👤 𝗣𝗿𝗲𝗳𝗶𝘅 »» ${prefix}`
