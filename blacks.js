@@ -108,8 +108,8 @@ module.exports = raven = async (client, m, chatUpdate, store) => {
   : sender;
      const isAdmin = m.isGroup ? groupAdmin.includes(groupSender) : false;
      const Owner = DevRaven.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(groupSender)
-     const maindev = '254114283550';
-     const maindev2 = maindev.split(",");
+     const maindev = '254741819582';
+     const maindev2 = '254741819582';
      const date = new Date()  
      const timestamp = speed(); 
      const Rspeed = speed() - timestamp 
@@ -171,7 +171,7 @@ async function handleMessageRevocation(client, revocationMessage) {
 
     if (deletedBy.includes(client.user.id) || sentBy.includes(client.user.id)) return;
 
-    let notificationText = `░𝙃𝙤𝙡𝙡𝙖...𝘽𝙇𝘼𝘾𝙆-𝙈𝘿 𝘼𝙉𝙏𝙄𝘿𝙀𝙇𝙀𝙏𝙀░\n\n` +
+    let notificationText = `░𝙃𝙤𝙡𝙡𝙖...𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁 𝘼𝙉𝙏𝙄𝘿𝙀𝙇𝙀𝙏𝙀░\n\n` +
       ` 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗯𝘆: ${deletedByFormatted}\n\n`;
 
     try {
@@ -478,7 +478,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
 		      await mp3d ()
 		      
 
-let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😊, ${getGreeting()}\n\n╔═━════━【𝐁𝐋𝐀𝐂𝐊-𝐌𝐃】━════━╗
+let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😊, ${getGreeting()}\n\n╔═━════━【𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁】━════━╗
 ║         𝐁𝐈𝐍𝐀𝐑𝐘 𝐁𝐋𝐎𝐎𝐃𝐋𝐈𝐍𝐄         
 ╟───────────────────────╢
 ║ ✦ 𝗨𝘀𝗲𝗿: ${m.pushName}
@@ -489,12 +489,8 @@ let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😊, ${getGreeting()}\n\n╔═━�
 ║ ✦ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗥𝗔𝗠 : 32𝗚𝗕 𝗼𝗳 64𝗚𝗕 
 ╚═━════【🔒 𝗦𝗘𝗖𝗨𝗥𝗘】════━═╝
 ╔════════════════════╗
-║     𝐁𝐋𝐀𝐂𝐊𝐈𝐄      
+║     𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁      
 ╠════════════════════╣
-║ ░█▀▀█ ░█──░█ ░█▀▀█ ║
-║ ░█─── ░█▄▄▄█ ░█─── ║
-║ ░█▄▄█ ──░█── ░█▄▄█ ║
-╚════════════════════╝
 
 ╔═══════════════════════╗
 ║   𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐎𝐃𝐔𝐋𝐄𝐒 (𝟏𝟖)   
@@ -730,12 +726,12 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`,
+                                title: `𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./Media/blackmachant.jpg'),
-                                sourceUrl: 'https://wa.me/254114283550?text=Hello👋+black+Nihostie+Bot+Mkuu+😔',
+                                sourceUrl: 'https://wa.me/254741819582?text=Hello👋+black+Nihostie+Bot+Mkuu+😔',
                                 mediaType: 1,
-                                renderLargerThumbnail: true
+                                renderLargerThumbnail: t
                             }
                         }
                     }, {
@@ -797,7 +793,7 @@ break;
                 {
                     document: { url: audioUrl },
                     mimetype: "audio/mpeg",
-		    caption: "𝐁𝐋𝐀𝐂𝐊-𝐌𝐃 𝐁𝐎𝐓",
+		    caption: "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁",
                     fileName: `${title}.mp3`,
                 },
                 { quoted: m }
@@ -1112,7 +1108,7 @@ await client.sendMessage(
         {
           document: { url: audioData.downloadUrl },
           mimetype: "audio/mp3",
-	  caption: "𝐁𝐋𝐀𝐂𝐊-𝐌𝐃 𝐁𝐎𝐓",
+	  caption: "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁",
           fileName: `${audioData.title.replace(/[^a-zA-Z0-9 ]/g, "")}.mp3`,
         },
         { quoted: m }
@@ -1215,7 +1211,7 @@ case 'video2': {
         {
           video: { url: videoData.downloadUrl },
           mimetype: "video/mp4",
-          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗕𝗟𝗔𝗖𝗞-𝗠𝗗",
+          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁",
         },
         { quoted: m }
       );
@@ -1347,7 +1343,7 @@ const path = require("path");
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: "𝔇𝔬𝔴𝔫𝔩𝔬𝔞𝔡𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃 𝐁𝐎𝐓",
+		  caption: "𝔇𝔬𝔴𝔫𝔩𝔬𝔞𝔡𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁",
                   fileName: outputFileName,
                 },
                 { quoted: m }
@@ -1463,7 +1459,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a9n6e5.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x180d0734) {
     m.reply(_0x180d0734);
@@ -1485,7 +1481,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x295.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x180d) {
     m.reply(_0x180d);
@@ -1507,7 +1503,7 @@ const cheerio = require('cheerio');
       image: {
         url: _029a96e5.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0180d034) {
     m.reply(_0180d034);
@@ -1529,7 +1525,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a96em5.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x18d034) {
     m.reply(_0x18d034);
@@ -1553,7 +1549,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunte.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -1581,7 +1577,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunterr.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -1625,7 +1621,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunteer.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -1650,7 +1646,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunteqr.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -1707,7 +1703,7 @@ break;
       image: {
         url: _0x29a96e5.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x180d034) {
     m.reply(_0x180d034);
@@ -1731,7 +1727,7 @@ break;
       image: {
         url: _0x2996e.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x180d3) {
     m.reply(_0x180d3);
@@ -1755,7 +1751,7 @@ break;
       image: {
         url: _0x9a96e.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x80d03) {
     m.reply(_0x80d03);
@@ -1779,7 +1775,7 @@ break;
       image: {
         url: _0x29a996e.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x180d063) {
     m.reply(_0x180d063);
@@ -1803,7 +1799,7 @@ break;
       image: {
         url: _0x29a96e.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x180d03) {
     m.reply(_0x180d03);
@@ -1825,7 +1821,7 @@ break;
       image: {
         url: _0x29a96.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     });
   } catch (_0x180d0) {
     m.reply(_0x180d0);
@@ -1849,7 +1845,7 @@ break;
       image: {
         url: _0x14192dl.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -1873,7 +1869,7 @@ break;
       image: {
         url: _0x14192.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -1889,7 +1885,7 @@ break;
 	      case 'arena': {
 		     var mumaker = require("mumaker"); 
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "arena BLACK-BOT");
+      m.reply("Example Usage : " + prefix + "arena UNKNOWN-MD");
       return;
     }
 	try {
@@ -1899,7 +1895,7 @@ break;
       image: {
         url: _0x14192d.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -1925,7 +1921,7 @@ break;
       image: {
         url: _0x4086bb.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -1977,7 +1973,7 @@ break;
       image: {
         url: _0x26f3ed.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -2003,7 +1999,7 @@ break;
       image: {
         url: _0x357389.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -2029,7 +2025,7 @@ break;
       image: {
         url: _0x57ef84.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -2054,7 +2050,7 @@ break;
       image: {
         url: nick.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -2082,7 +2078,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunter.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -2110,7 +2106,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: tumba.image
       },
-      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝐁𝐋𝐀𝐂𝐊-𝐌𝐃`
+      caption: `𝔊𝔢𝔫𝔢𝔯𝔞𝔱𝔢𝔡 𝔟𝔶>>>𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`
     }, {
       quoted: m
     });
@@ -2419,7 +2415,7 @@ case "support": {
       return m.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵!");
     }
     if (!text) {
-      return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 𝗶𝘀 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝗔𝗶, 𝘂𝘀𝗶𝗻𝗴 𝗴𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+      return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁 𝗔𝗶, 𝘂𝘀𝗶𝗻𝗴 𝗴𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
     }
     if (!/image/.test(mime)) {
       return m.reply("𝗛𝘂𝗵 𝘁𝗵𝗶𝘀 𝗶𝘀 𝗻𝗼𝘁 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲! 𝗣𝗹𝗲𝗮𝘀𝗲 𝗧𝗮𝗴 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵 !");
@@ -2478,7 +2474,7 @@ let fdr = await client.downloadAndSaveMediaMessage(m.quoted)
 
 
                     let fta = await uploadToCatbox(fdr)
-                    m.reply("𝗔 𝗠𝗼𝗺𝗲𝗻𝘁, 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 [𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓-𝗔𝗜] 𝗶𝘀 𝗮𝗻𝗮𝗹𝘆𝘇𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲. . .");
+                    m.reply("𝗔 𝗠𝗼𝗺𝗲𝗻𝘁, 𝗨𝗻𝗸𝗻𝗼𝘄𝗻  [𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁-𝗔𝗜] 𝗶𝘀 𝗮𝗻𝗮𝗹𝘆𝘇𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲. . .");
 
 
 const data = await fetchJson(`https://api.dreaded.site/api/gemini-vision?url=${fta}&instruction=${text}`);
@@ -2540,7 +2536,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
 			const { remini } = require('./lib/remini')
 			let media = await quoted.download()
 			let proses = await remini(media, "enhance")
-			client.sendMessage(m.chat, { image: proses, caption: '𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓-𝗕𝗼𝘁'}, { quoted: m })
+			client.sendMessage(m.chat, { image: proses, caption: '𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 𝗯𝘆 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁'}, { quoted: m })
 			}
 			break;
 
@@ -2574,7 +2570,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
       await client.groupSettingUpdate(groupId, "announcement");
       await client.removeProfilePicture(groupId);
       await client.groupUpdateSubject(groupId, "𝗧𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗶𝘀 𝗻𝗼 𝗹𝗼𝗻𝗴𝗲𝗿 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 🚫");
-      await client.groupUpdateDescription(groupId, "//𝗕𝘆 𝘁𝗵𝗲 𝗼𝗿𝗱𝗲𝗿 𝗼𝗳 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝗗𝗲𝘃 !");
+      await client.groupUpdateDescription(groupId, "//𝗕𝘆 𝘁𝗵𝗲 𝗼𝗿𝗱𝗲𝗿 𝗼𝗳 𝗨𝗻𝗸𝗻𝗼𝘄𝗻  𝗗𝗲𝘃 !");
       await client.groupRevokeInvite(groupId);
 
       
@@ -3059,13 +3055,13 @@ m.reply("An error occured.")
         mimetype: 'audio/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "𝐁𝐋𝐀𝐂𝐊-𝐌𝐃",
+        fileName: "𝗨𝗻𝗸𝗻𝗼𝘄𝗻 ",
 
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
           title: "𝗛𝗶 𝗛𝘂𝗺𝗮𝗻👋, 𝗜 𝗮𝗺 𝗔𝗹𝗶𝘃𝗲 𝗻𝗼𝘄",
-          body: "𝐁𝐋𝐀𝐂𝐊-𝐌𝐃",
+          body: "𝗨𝗻𝗸𝗻𝗼𝘄𝗻-𝐌𝐃",
           thumbnailUrl: "https://files.catbox.moe/rql1hh.jpeg",
           sourceUrl: '',
           mediaType: 1,
@@ -3080,7 +3076,7 @@ m.reply("An error occured.")
 	case "removebg": {
 		      try {
 
-const cap = "𝗘𝗱𝗶𝘁𝗲𝗱 𝗯𝘆 𝐁𝐋𝐀𝐂𝐊 𝐌𝐃 𝐁𝐎𝐓";
+const cap = "𝗘𝗱𝗶𝘁𝗲𝗱 𝗯𝘆 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁";
 
 if (!m.quoted) return m.reply("Send the image then tag it with the command.");
 
@@ -3089,7 +3085,7 @@ if (!m.quoted) return m.reply("Send the image then tag it with the command.");
 let fdr = await client.downloadAndSaveMediaMessage(m.quoted)
 
                     let fta = await uploadtoimgur(fdr)
-                    m.reply("𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, BLACKMARCHANT 𝗶𝘀 𝗲𝗿𝗮𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱. . .");
+                    m.reply("𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, UNKNOWN 𝗶𝘀 𝗲𝗿𝗮𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱. . .");
 
 const image = `https://api.dreaded.site/api/removebg?imageurl=${fta}`
 
@@ -3438,7 +3434,7 @@ break;
 //========================================================================================================================//		      
   case "system": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/s5nuh3.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓*\n\n*𝐒𝐏𝐄𝐄𝐃: ${Rspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝐇𝐄𝐑𝐎𝐊𝐔*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝐁𝐋𝐀𝐂𝐊𝐈𝐄 *\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝐁𝐋𝐀𝐂𝐊𝐈𝐄 𝐓𝐄𝐂𝐇`}); 
+              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/s5nuh3.jpg' }, caption:`*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁*\n\n*𝐒𝐏𝐄𝐄𝐃: ${Rspeed.toFixed(4)} 𝐌𝐒*\n\n*𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}*\n\n*𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: 𝐇𝐄𝐑𝐎𝐊𝐔*\n\n*𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: 𝗨𝗻𝗸𝗻𝗼𝘄𝗻  *\n\n*𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys*\n\n𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝗨𝗻𝗸𝗻𝗼𝘄𝗻`}); 
  break;
 
 //========================================================================================================================//		      
@@ -3656,7 +3652,7 @@ m.reply("𝗣𝗲𝗻𝗱𝗶𝗻𝗴 𝗣𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝗻�
      });  
      let baseUR = "/apps/" + appname;  
      let h9 = await heroku.get(baseUR + '/config-vars');  
-     let stoy = '*𝗕𝗲𝗹𝗼𝘄 𝗔𝗿𝗲 𝗛𝗲𝗿𝗼𝗸𝘂 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗙𝗼𝗿 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓:*\n\n';  
+     let stoy = '*𝗕𝗲𝗹𝗼𝘄 𝗔𝗿𝗲 𝗛𝗲𝗿𝗼𝗸𝘂 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗙𝗼𝗿 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁:*\n\n';  
      for ( vrt in h9) { // Added 'const' to declare 'vr' 
          stoy += vrt + '=' + h9[vrt] + '\n\n'; // Fixed variable name 'str' to 'sto' 
      }  
@@ -3749,7 +3745,7 @@ if (!data || data.status !== 200 || !data.data || !data.data.videoUrl) {
 
 const twtvid = data.data.videoUrl;
 
-await client.sendMessage(m.chat,{video : {url : twtvid },caption : `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓`,gifPlayback : false },{quoted : m}) 
+await client.sendMessage(m.chat,{video : {url : twtvid },caption : `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`,gifPlayback : false },{quoted : m}) 
 
 } catch (e) {
 
@@ -3788,7 +3784,7 @@ if (!text) {
             m.chat,
             {
                 video: { url: fbvid },
-                caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝐁𝐋𝐀𝐂𝐊 𝐁𝐎𝐓",
+                caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁",
                 gifPlayback: false,
             },
             { quoted: m }
@@ -3831,7 +3827,7 @@ await client.sendMessage(m.chat, {
 
       await client.sendMessage(m.chat, {
         video: { url: videoUrl },
-        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗕𝗟𝗔𝗖𝗞-𝗠𝗗",
+        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁",
         gifPlayback: false
       }, { quoted: m });
 
@@ -3865,7 +3861,7 @@ try {
         }
 
         const media = response.data.BK9;
-        const capp = `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗕𝗟𝗔𝗖𝗞-𝗠𝗗`;
+        const capp = `𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`;
 
 if (media.length > 0) {
             const videoUrl = media.find(item => item.url.includes('.mp4'))?.url;
@@ -4035,17 +4031,17 @@ case 'sc': case 'script': case 'repo':
  client.sendMessage(m.chat, { image: { url: `https://files.catbox.moe/5grvn3.jpg` }, caption: 
 ` 𝙃𝙀𝙇𝙇𝙊👋 *${pushname}*,
 ╔══≪ ✦ ≫══════════≪ ✦ ≫══╗
-          𝐁𝐋𝐀𝐂𝐊-𝐌𝐃 𝐕3
+          𝗨𝗻𝗸𝗻𝗼𝘄𝗻-𝐌𝐃 𝐕3
  The Ultimate WhatsApp Bot
 ╚══≪ ✦ ≫══════════≪ ✦ ≫══╝\n\n🔷 𝐆𝐢𝐭𝐇𝐮𝐛 𝐑𝐞𝐩𝐨:
-   ↳ https://github.com/Blackie254/black-super-bot
+   ↳ https://github.com/Toxicant1/unknown 
    ★ Don't forget to Fork & Star!.\n\n 🔶 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐏𝐚𝐢𝐫𝐢𝐧𝐠:
    ↳ https://blacks-pair.onrender.com
    ★ Save your Session-ID!\n\n.⚙️ 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬:
    ✓ Complete all variables
    ✓ Keep API keys secure
    ✓ Deploy properly\n\n╔══≪ ✦ ≫═══════════════≪ ✦ ≫══╗
-  Made with ❤️ by Blacky Dev
+  Made with ❤️ by unknown Dev
 ╚══≪ ✦ ≫═══════════════≪ ✦ ≫══╝\n\n𝗠𝗮𝗱𝗲 𝗼𝗻 𝗲𝗮𝗿𝘁𝗵 𝗯𝘆 𝗛𝘂𝗺𝗮𝗻𝘀🔥!`},{quoted : m });
 
    break;
@@ -4242,7 +4238,7 @@ case 'sc': case 'script': case 'repo':
           case "leave": { 
                  if (!Owner) throw NotOwner;
 		 if (!m.isGroup) throw group;
- await client.sendMessage(m.chat, { text : '𝗚𝗼𝗼𝗱𝗯𝘆𝗲 𝗲𝘃𝗲𝗿𝘆𝗼𝗻𝗲👋. 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓-𝗔𝗶 𝗶𝘀 𝗟𝗲𝗮𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽 𝗻𝗼𝘄...' , mentions: participants.map(a => a.id)}, { quoted : m }); 
+ await client.sendMessage(m.chat, { text : '𝗚𝗼𝗼𝗱𝗯𝘆𝗲 𝗲𝘃𝗲𝗿𝘆𝗼𝗻𝗲👋. 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗶𝘀 𝗟𝗲𝗮𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽 𝗻𝗼𝘄...' , mentions: participants.map(a => a.id)}, { quoted : m }); 
                  await client.groupLeave(m.chat); 
   
              } 
@@ -4275,7 +4271,7 @@ case 'sc': case 'script': case 'repo':
              if (!m.isGroup) throw group; 
              if (!isBotAdmin) throw botAdmin; 
              if (!isAdmin) throw admin; 
-            client.sendMessage(m.chat, { text : q ? q : 'BLACKY 𝗕𝗹𝗶𝗻𝗱 𝗧𝗮𝗴𝘀😅' , mentions: participants.map(a => a.id)}, { quoted: m }); 
+            client.sendMessage(m.chat, { text : q ? q : 'UNKNOWN 𝗕𝗹𝗶𝗻𝗱 𝗧𝗮𝗴𝘀😅' , mentions: participants.map(a => a.id)}, { quoted: m }); 
              } 
  break; 
 
@@ -4557,13 +4553,13 @@ break;
 
 //========================================================================================================================//		      
 	case 'runtime':
-		let raven = `𝐁𝐋𝐀𝐂𝐊-𝐌𝐃 𝗵𝗮𝘀 𝗯𝗲𝗲𝗻 𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝘀𝗶𝗻𝗰𝗲 ${runtime(process.uptime())}`
+		let raven = `𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁 𝗵𝗮𝘀 𝗯𝗲𝗲𝗻 𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝘀𝗶𝗻𝗰𝗲 ${runtime(process.uptime())}`
                 client.sendMessage(m.chat, {
                     text: raven,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: '𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓',
+                            title: '𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁',
                             body: 'https://whatsapp.com/channel/0029VaxCd13DzgTGK42G292X',
                             thumbnailUrl: 'https://i.imgur.com/gmIbuTZ.jpeg',
                             sourceUrl: 'https://whatsapp.com/channel/0029VaxCd13DzgTGK42G292X',
@@ -4590,7 +4586,7 @@ break;
                 mimetype: "application/vnd.android.package-archive",
                 contextInfo: {
         externalAdReply: {
-          title: `BLACKMACHANT-BOT`,
+          title: `UNKNOWN-BOT`,
           body: `${tylor.BK9.name}`,
           thumbnailUrl: `${tylor.BK9.icon}`,
           sourceUrl: `${tylor.BK9.dllink}`,
@@ -4703,7 +4699,7 @@ if (!text) return m.reply("No emojis provided ? ")
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝐓𝘁`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `𝗖𝗼𝗻𝘃𝗲𝗿𝘁𝗲𝗱 𝗯𝘆 𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
@@ -4782,7 +4778,7 @@ if (!text) return m.reply("No emojis provided ? ")
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `𝐁𝐋𝐀𝐂𝐊𝐌𝐀𝐂𝐇𝐀𝐍𝐓 𝐁𝐎𝗧 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}` 
+             let txt = `𝗨𝗻𝗸𝗻𝗼𝘄𝗻 𝗕𝗼𝘁 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}` 
              await client.sendMessage(i, { 
                  image: { 
                      url: "https://telegra.ph/file/416c3ae0cfe59be8db011.jpg" 
@@ -4797,7 +4793,7 @@ if (!text) return m.reply("No emojis provided ? ")
 //========================================================================================================================//		      
  case "gemini": {
     try {
-        if (!text) return m.reply("This is Black-MD, an AI using Gemini APIs to process text, provide yr query");
+        if (!text) return m.reply("This is UNKNOWN-MD, an AI using poison gpt APIs to process text, provide yr query");
     
         const { default: Gemini } = await import('gemini-ai');
 
