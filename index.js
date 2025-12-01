@@ -43,7 +43,7 @@ async function authentication() {
     if (!session) return console.log('Please add your session to SESSION env !!');
 
     // Split session string properly
-    const [fileId, fileKey] = session.replace('UNKNOWN MD;;;', '').split(';;;');
+    const [fileId, fileKey] = session.replace('BLACK MD;;;', '').split(';;;');
     if (!fileId || !fileKey) return console.log('Session format is wrong!');
 
     const megaURL = `https://mega.nz/file/${fileId}#${fileKey}`;
