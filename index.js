@@ -98,13 +98,21 @@ startRaven()
     client.ev.on("creds.update", saveCreds);
   
   if (autobio === 'TRUE') {
-    setInterval(() => {
-      const date = new Date();
-      client.updateProfileStatus(
-        `${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.`
-      );
-    }, 10 * 1000);
-  }
+  setInterval(() => {
+    const date = new Date();
+    const options = { timeZone: 'Africa/Nairobi' };
+
+    // Format time as HH:MM:SS
+    const hours = String(date.toLocaleString('en-US', { hour: '2-digit', hour12: false, ...options })).padStart(2, '0');
+    const minutes = String(date.toLocaleString('en-US', { minute: '2-digit', ...options })).padStart(2, '0');
+    const seconds = String(date.toLocaleString('en-US', { second: '2-digit', ...options })).padStart(2, '0');
+
+    const day = date.toLocaleString('en-US', { weekday: 'long', ...options });
+
+    // Update WhatsApp status
+    client.updateProfileStatus(`⚔️𝗨𝗻𝗸𝗻𝗼𝘄𝗻𝗕𝗼𝘁 | ${day} | ${hours}:${minutes}:${seconds}`);
+  }, 10 * 1000); // every 10 seconds
+}
 
 
   client.ev.on("messages.upsert", async (chatUpdate) => {
